@@ -23,13 +23,16 @@ import DeleteIcon from '@mui/icons-material/Delete';
 }
 
 
+
+
     const prevNum1=()=>{
         
        if(num1 > 0) {
        
        setNum1(num1 - 1);
        
-   } else {
+   } 
+   else {
         //  alert('Sorry,zero limit reacted');
        setNum1(0);
        

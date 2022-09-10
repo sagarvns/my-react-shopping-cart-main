@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const VsjForm = () => {
+const Form = () => {
     const [amt1, setAmt1] = useState(0);
     const [amt2, setAmt2] = useState(0);
     const amountChangeHandler1 = (event) => {
@@ -26,4 +26,4 @@ const VsjForm = () => {
         <h1>{Number(amt1) + Number(amt2)}</h1>
     </form>
 }
-export default VsjForm;
+export default Form;
